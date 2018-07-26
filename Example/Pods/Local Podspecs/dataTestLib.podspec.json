@@ -1,0 +1,22 @@
+{
+  "name": "dataTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of dataTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/409915783@qq.com/dataTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "409915783@qq.com": "409915783@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/409915783@qq.com/dataTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "dataTestLib/Classes/**/*"
+}

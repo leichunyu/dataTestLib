@@ -1,0 +1,16 @@
+PODS:
+  - dataTestLib (0.1.0)
+
+DEPENDENCIES:
+  - dataTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  dataTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dataTestLib: 638b4620aa459b2a65b5fb6bd845a66c9907f6dc
+
+PODFILE CHECKSUM: 653981feae78d1a3cf64f1319c8b2b4dbf5eb564
+
+COCOAPODS: 1.5.3

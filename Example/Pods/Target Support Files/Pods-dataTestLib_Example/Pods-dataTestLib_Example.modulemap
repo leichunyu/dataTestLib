@@ -1,0 +1,6 @@
+framework module Pods_dataTestLib_Example {
+  umbrella header "Pods-dataTestLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

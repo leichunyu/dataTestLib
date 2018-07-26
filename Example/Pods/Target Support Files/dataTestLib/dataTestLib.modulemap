@@ -1,0 +1,6 @@
+framework module dataTestLib {
+  umbrella header "dataTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
