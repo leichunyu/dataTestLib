@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'dataTestLib'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of dataTestLib.'
+  s.summary          = 'A demo for dataTestLib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'dataTestLib/Classes/**/*'
-  s.vendored_libraries = 'dataTestLib.a'
+  s.vendored_libraries = 'libDatatistPakageManage.a'
    s.frameworks = 'UIKit', 'MapKit', 'Security', 'CoreLocation', 'UserNotifications', 'CoreData', 'CoreTelephony', 'MobileCoreServices', 'JavaScriptCore', 'CoreGraphics', 'Foundation', 'SystemConfiguration'
   s.ios.library = 'c++', 'stdc++', 'z'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
