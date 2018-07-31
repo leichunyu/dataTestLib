@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dataTestLib'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A demo for dataTestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'dataTestLib/Classes/**/*'
-  s.vendored_libraries = 'libDatatistPakageManage.a'
+  s.vendored_libraries = 'libDatatistTracker.a'
    s.frameworks = 'UIKit', 'MapKit', 'Security', 'CoreLocation', 'UserNotifications', 'CoreData', 'CoreTelephony', 'MobileCoreServices', 'JavaScriptCore', 'CoreGraphics', 'Foundation', 'SystemConfiguration'
   s.ios.library = 'c++', 'stdc++', 'z'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
@@ -41,6 +41,7 @@ TODO: Add long description of the pod here.
   # }
 
    s.public_header_files = 'dataTestLib/Classes/**/*.h'
+   s.resources = "dataTestLib/Resource/**/*"
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
