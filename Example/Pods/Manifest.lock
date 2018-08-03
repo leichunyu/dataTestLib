@@ -1,5 +1,5 @@
 PODS:
-  - dataTestLib (0.0.1)
+  - dataTestLib (0.0.4)
 
 DEPENDENCIES:
   - dataTestLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  dataTestLib: e1ebcaafaca6a2ee1baf683f164bb3c6cb50cdd5
+  dataTestLib: 8b81d39c9bda83a5e90a6867913302d69a4b4cc8
 
 PODFILE CHECKSUM: 653981feae78d1a3cf64f1319c8b2b4dbf5eb564
 

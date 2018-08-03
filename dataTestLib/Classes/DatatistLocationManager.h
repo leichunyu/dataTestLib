@@ -12,10 +12,11 @@
 
 @interface DatatistLocationManager : NSObject
 
-@property (nonatomic, readonly) CLLocation *location;
+@property (nonatomic, strong, readonly) CLLocation *location;
 
-- (void)startMonitoringLocationChanges;
-- (void)stopMonitoringLocationChanges;
-
+//- (void)startMonitoringLocationChanges;
+//- (void)stopMonitoringLocationChanges;
+- (void)starUpdateLocation;
+- (void)stopUpdataLocation;
 @end
 

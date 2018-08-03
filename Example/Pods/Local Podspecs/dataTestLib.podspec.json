@@ -1,6 +1,6 @@
 {
   "name": "dataTestLib",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "summary": "A demo for dataTestLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/leichunyu/dataTestLib",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/leichunyu/dataTestLib.git",
-    "tag": "0.0.1"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "dataTestLib/Classes/**/*",
-  "vendored_libraries": "libDatatistPakageManage.a",
+  "vendored_libraries": "libDatatistTracker.a",
   "frameworks": [
     "UIKit",
     "MapKit",
@@ -44,5 +44,11 @@
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },
-  "public_header_files": "dataTestLib/Classes/**/*.h"
+  "resource_bundles": {
+    "dataTestLib": [
+      "dataTestLib/Assets/*.png"
+    ]
+  },
+  "public_header_files": "dataTestLib/Classes/**/*.h",
+  "resources": "dataTestLib/Resource/**/*"
 }

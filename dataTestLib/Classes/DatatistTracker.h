@@ -6,7 +6,7 @@
 //  Copyright 2013 Mattias Levin. All rights reserved.
 //
 
-#define ABOVE_IOS_8_0           0
+#define ABOVE_IOS_8_0           1
 #define WKWebView_Bridge        1
 
 #import <UIKit/UIKit.h>
@@ -374,17 +374,20 @@ typedef NS_ENUM(NSInteger, DatatistAPIRequestResult) {
 
 - (void)enableTrack:(BOOL)enable;
 
+/**
+ 是否上报GPS信息
+ */
+- (void)enableGPSTrack:(BOOL)enable;
+/**
+ 是否开启上报第三方H5页面的ProjectId
+ */
+- (void)enableJSProjectIdTrack:(BOOL)enable;
+
 - (void)trackJSEvent:(NSDictionary *)parameters;
 
 - (void)trackClick:(NSDictionary *)parameters;
 
-/**
- 校验可视化圈选的schmeURL
-
- @param url schmeURL
- @return YES:匹配成功 NO:不匹配
- */
-+ (BOOL)handleUrl:(NSURL*)url;
+- (void)resetSiteId:(NSString *)siteId;
 
 #if ABOVE_IOS_8_0 && WKWebView_Bridge
 @property (nonatomic, weak) WebViewJavascriptBridge *bridge;

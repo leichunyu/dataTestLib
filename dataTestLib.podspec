@@ -36,9 +36,9 @@ TODO: Add long description of the pod here.
   s.ios.library = 'c++', 'stdc++', 'z'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   
-  # s.resource_bundles = {
-  #   'dataTestLib' => ['dataTestLib/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'dataTestLib' => ['dataTestLib/Assets/*.png']
+   }
 
    s.public_header_files = 'dataTestLib/Classes/**/*.h'
    s.resources = "dataTestLib/Resource/**/*"
