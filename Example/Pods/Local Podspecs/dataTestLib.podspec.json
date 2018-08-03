@@ -18,7 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "vendored_libraries": "libDatatistTracker.a",
+  "source_files": [
+    "dataTestLib/Classes/**/*",
+    "dataTestLib/Resource/**/DatatistTracker.xcdatamodeld"
+  ],
   "frameworks": [
     "UIKit",
     "MapKit",
@@ -43,6 +46,20 @@
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },
-  "public_header_files": "dataTestLib/Classes/**/*.h",
-  "resources": "dataTestLib/Resource/**/*"
+  "public_header_files": [
+    "dataTestLib/Classes/DatatistCouponInfo.h",
+    "dataTestLib/Classes/DatatistDispatcher.h",
+    "dataTestLib/Classes/DatatistNSURLSessionDispatcher.h",
+    "dataTestLib/Classes/DatatistOrderInfo.h",
+    "dataTestLib/Classes/DatatistProductInfo.h",
+    "dataTestLib/Classes/DatatistTracker.h",
+    "dataTestLib/Classes/DatatistTransaction.h",
+    "dataTestLib/Classes/DatatistTransactionBuilder.h"
+  ],
+  "resources": "dataTestLib/Resource/**/*",
+  "dependencies": {
+    "WebViewJavascriptBridge": [
+
+    ]
+  }
 }
