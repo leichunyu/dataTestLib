@@ -7,207 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03562A295B6BF06A9C376E0BD9969843 /* DatatistTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3D8A9AE3C653FF8227BC2EE0E23AC5 /* DatatistTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E347C0EACF9FF8FD05C20FBBAAE23A /* Pods-dataTestLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F4D38D786A7D6C8A51B34F922B3B55 /* Pods-dataTestLib_Example-dummy.m */; };
 		07A1679195D4580369CB52C504ED4B4C /* Pods-dataTestLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB302D04E8FCE80A1F06FE4BDB33A84 /* Pods-dataTestLib_Tests-dummy.m */; };
-		0AE5270BC42D4C870E755B6CE8547F25 /* DatatistNSURLSessionDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EEB28AB6F4C69C16783238BDA70E17 /* DatatistNSURLSessionDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E7B5B8FFF78814B42681A99A539B64C /* Pods-dataTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6263F63C6EE4362178572DF2E72B7B55 /* Pods-dataTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15FFD27FD92422C770B2D21EF78A0958 /* SASwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6943DDAD178DF56EBF8A25BB9B063DA6 /* SASwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19629817BC35CEFC6CB248FEDD96E3F4 /* UIApplication+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 840F229D1215D3EF7E2DCA7146DD97FD /* UIApplication+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CF2645449A7747ED0255CE7824E56B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1525456328F3BCDE09AB53607F69A75 /* Security.framework */; };
-		21F34B43786871E767B95CC1B011ADE6 /* SASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 71548BF3631E01AF7271E93B777E341B /* SASwizzle.m */; };
-		251656D85C2D285C7BF2FF2763300F37 /* AutoTrackUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E50CCB3AD3C6661D9E9C65292283BC4 /* AutoTrackUtils.m */; };
-		37182F1E10A7F44004D6D9C9D2E97CFA /* DatatistTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = B930FCB4A58B72CEBA58D7707DDD0398 /* DatatistTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39E5D0C678AA7B8A62FE69B1004A2D89 /* UITableView+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0312B0A17FB6CF93AEA935C91B46FE /* UITableView+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F260DCB41CD8570FB72FCA993B21FC9 /* UICollectionView+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEEE3D6340598F709A52CAED4F1F2D3 /* UICollectionView+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40DD9406B6B199030DE726266C9FCB0D /* SASwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 95C0002291E7B9B999CBFD97646BB3B3 /* SASwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		414F988284D1B76D9F4DB9C84D823118 /* UIApplication+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A20981C9ECDAB8005B423B66DBD840 /* UIApplication+AutoTrack.m */; };
-		4378D429E925DDBB1E653847B1B77619 /* DatatistOrderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0A9F81F82ABD789BBB549F1E33DD90 /* DatatistOrderInfo.m */; };
-		440DE55D3458864DFA6C9CE38A89F88A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B37288852250192E7694C556FCDF75 /* SystemConfiguration.framework */; };
-		457F03BAE7097DCABE72CF7A4F0108ED /* DatatistTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B16020715AD092150CE608A2E9493E35 /* DatatistTracker.xcdatamodeld */; };
-		4BEA858A6CA704D81144F430890C2C40 /* DatatistDebugDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B3C77498422C6F6B893975E6B23530 /* DatatistDebugDispatcher.m */; };
-		5408777B9AE93D7C7382C0CD155CC9FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DE42503704603B4018D9789BCB7B17 /* CoreLocation.framework */; };
-		57388744704FC62CC1B6193FD9C1C210 /* UIViewController+autoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8702BDCD4F99EB5BBC5CA098B29CD9B1 /* UIViewController+autoTrack.m */; };
-		5C51B2CD5D5E735E9F26E2DE07C37DFD /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 22454AF7EBC8A1AF7E142948AC2F0CB2 /* NSString+Date.m */; };
-		5D2C47E2B837DFA6EC85BC973283D70F /* PTEventEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 131C937B3BF65D2070531C0F962BF9E9 /* PTEventEntity.m */; };
-		6095B69C01F9240C9055B63C8CF8F886 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DA21990FE86B986F36288905EEFFAA /* MapKit.framework */; };
-		648F133FCA61A436998DCCEA219159EC /* DatatistProductInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D268BAA62FD7CC9A20186EC6DBFDDC5 /* DatatistProductInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64F29BB883D32DEEC31ACC1780DFD13A /* DTLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 127D28E9931F23D4B719703672CF4B33 /* DTLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6703D4B594225B9147746CA0867736CA /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = 5646B0068F72DD2271401DE35FF92199 /* Constant.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6907105FABBC780D0D985DBFB95FCD33 /* DatatistTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DB15BD3D483B8759F52B28AD0ADCE4 /* DatatistTracker.m */; };
-		6A9458D3E057D3C31FF91C6B807AC737 /* AutoTrackUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7562F377CE640D52BE4DE3010A501A89 /* AutoTrackUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DD381DBA5B1B609278FE74D1BA783A7 /* DTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76654ABB31F04AA35E8E46A0E1E1D9 /* DTLogger.m */; };
-		7224117B2D35EA23241AF330B0BC93A4 /* UserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E2639E5F2E21708ED3BCADA8483A15 /* UserAgent.m */; };
-		7A5F49A9F3DF2119194B796FBEAE464C /* NSString+Date.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DECBB092170F476B67149CE318DFB37 /* NSString+Date.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A7C1B6EAA3F4AD74BDD777A0158A484 /* DatatistLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E9942234EDFA953B2501105072A449 /* DatatistLocationManager.m */; };
-		7C8BC6B5F31F60074AC19C24CABDE511 /* dataTestLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92B06D51838EF2B2E751D8A72F5F7154 /* dataTestLib.bundle */; };
-		7D7B8E958C15DDF7DDDDDCB095F35AAB /* DatatistOrderInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DDFB1220F141ADC37084D77877F31A /* DatatistOrderInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E89E39F7F8EE04469F97C90AC644541 /* DatatistDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E83094E781F9483A27DE1745ACE0925 /* DatatistDebugDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83A22D72B0551025FF747C0C126D0B28 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005288F57B8616DBDDB2723EB4F18C53 /* CoreData.framework */; };
-		8D5F0718B208C531F8AFBE0815CBA430 /* DatatistCouponInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F09DB49AFC7F38DD6491FB14374718 /* DatatistCouponInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DC3BCAB82832DE924F1B86121D87C5B /* UICollectionView+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7972860512545E8EBB746FE205540A /* UICollectionView+AutoTrack.m */; };
-		98C1D5739BEFB2691A8E730AAE980E54 /* DatatistOldTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = B85AA88BE24940EAF6495170CC96727A /* DatatistOldTracker.m */; };
-		9BCB45CEBE2FFA31D10962C052951877 /* DatatistTransactionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC985743F425FDBA6461293B98CE0C5 /* DatatistTransactionBuilder.m */; };
-		9D716EA7E14A7CF4FBFE5A3AC42BAAC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE10D8CF484C12C2B13AAB5000E3273 /* Foundation.framework */; };
-		9E87BFA81776717EBA1F6AC8C72FEE79 /* Pods-dataTestLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F4D38D786A7D6C8A51B34F922B3B55 /* Pods-dataTestLib_Example-dummy.m */; };
-		A4B50045B6BC7C5E14B020669A206049 /* UIView+AutoStatistic.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B245FF395A6FA305FABB45CE78A085 /* UIView+AutoStatistic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5BB585C98812E184D68954C6BD6EB2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE10D8CF484C12C2B13AAB5000E3273 /* Foundation.framework */; };
-		A5CE2C188463A44874C8C7377772E96B /* DatatistDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8EC3E87FE56298B7A27DBE567D0B6F /* DatatistDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6135AA29DC37AA60D12EC9CE3F4B561 /* DatatistProductInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C5F23B89FF51F8C2A9B903BF080280 /* DatatistProductInfo.m */; };
-		A79C236F93F07AAC3C621C166AF282A3 /* dataTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A85EFCAD3D1D4CF0E37FFC32548E7F0 /* dataTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA15DC7C5C6A8F45B63FB057B2B57BD1 /* DatatistLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2423453596ABBD7D15A7472CE3FCB23E /* DatatistLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA29CE0988BA9EB4A91EBD41A0BEDD3D /* PTEventEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF11B13A474C745BB7EF437E37E6A4B /* PTEventEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA87322F7D3CAD3B626BB1504381BD45 /* DTReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C256A58C8F645E805C4A4CB0753BA7 /* DTReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE2CE344C97F3D0D57982CC30368825B /* UIViewController+autoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = E8928295A13F12CFA819C45DE094D1AE /* UIViewController+autoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B04FB10345F24D93EBF6A859758EA068 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF02AD96169D14EE32D756B5790059B7 /* CoreTelephony.framework */; };
-		B18626D4EBBC68689771F271A79C5D31 /* DatatistOldTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 241FE456B9B7043DC1DF3E52DDC2119A /* DatatistOldTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7F010AE46FE00B8383D3DCAB3EED4BE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D5217BAC13270B0B822128D9E4129 /* MobileCoreServices.framework */; };
-		CD95F585B636347E5FD3B7BF0F7402FA /* dataTestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3815CE5CDAB65EFA1E7E2EC3949BC87 /* dataTestLib-dummy.m */; };
-		D0741735357B90CEF820DE899AE5E076 /* UITableView+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF1EBB450179BC643A21811D139EBA9 /* UITableView+AutoTrack.m */; };
-		D3E64372A9A20FF1132C14901DE6135B /* DTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E163E3A6C5AB818579FA7775DCAD77 /* DTReachability.m */; };
-		D596E7A5B49696E044238A18F10AF995 /* UserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A1338A040BB9C9268BAB59E74F8FA0 /* UserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8551D9EC35438B6751017F238EA403C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A4A1F1F13644D438FEEF16CBB2AE32 /* JavaScriptCore.framework */; };
-		DA0C9FB9444164990619932B99A53F42 /* DatatistTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D58572C47547ADB9BE25CABA5E3C4 /* DatatistTransaction.m */; };
-		DCB3698C5E37EE7574908AF65B92658C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CDE3DF760D01F8899D26275F46AE66 /* UIKit.framework */; };
-		DF0386EEEA2B2FBC36BD41A1FFBFC372 /* DatatistTransactionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C27B2D024FDA817635B4222E6FCAF99 /* DatatistTransactionItem.m */; };
-		E05FAE7F4867BD7AC11A4E963421D7BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE10D8CF484C12C2B13AAB5000E3273 /* Foundation.framework */; };
-		E1AFD77EF96C490F97FD5125AEC2C7AA /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A47AD266DCF8B8079EA5EE3C38899A8 /* UserNotifications.framework */; };
-		E3BE4E712895623A17861229F1E185A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2236D8D95DBEB250321ACD0B570E9C57 /* CoreGraphics.framework */; };
-		E53A9DB0856CE7C4870ED701864B851C /* DatatistCouponInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E5E591B733E16A0465988BA3B7C41 /* DatatistCouponInfo.m */; };
-		E729380CD038142F4F3A4043C1544423 /* SASwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = E901BBC44DC36A703EDC62488CC200C1 /* SASwizzler.m */; };
-		F003FFECCBE8FAC5C9FB96FD63231A32 /* DatatistTransactionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4877B97C02E1BDA45405C903755B0FC3 /* DatatistTransactionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F54E6E5D99C9A0763BB04C66B18E4D01 /* UIView+AutoStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA320F7139295208A10C3D7C95ECEE7 /* UIView+AutoStatistic.m */; };
-		F5EFADF1A687E0BFABA80B26C7177773 /* DatatistNSURLSessionDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B1625B9A87CA14F91314A98B8CD419A9 /* DatatistNSURLSessionDispatcher.m */; };
-		F69DAB4AF92A2F27348E726A3BDC2F03 /* DatatistTransactionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8986AF61EC8328B2F959ED91BDA416 /* DatatistTransactionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8799B1D267149A46133CCB63ED3CFB6 /* Pods-dataTestLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5918F1838D9B6AA016F2F70546130109 /* Pods-dataTestLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE84966BF1125E6566EFB9F13FA1807D /* CustomType.h in Headers */ = {isa = PBXBuildFile; fileRef = 203A89108F3A280783A5240936732CBC /* CustomType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BB585C98812E184D68954C6BD6EB2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A792CC577B9E1F492F8D61303845D5CE /* Pods-dataTestLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5918F1838D9B6AA016F2F70546130109 /* Pods-dataTestLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D49D2100B6746E028D0207D8893FB1F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D657DECEB891275791ACB871F9E52E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78BAA083D5BFBEC8B00FDDAC2F2CE0FE;
-			remoteInfo = dataTestLib;
-		};
 		590506F28167CB345799B24AC4C4776E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5128F01A9A18C4DB2881941B50C1E85D;
+			remoteGlobalIDString = F3B57AE25D51BFAFDB57BB2249DDF654;
 			remoteInfo = "Pods-dataTestLib_Example";
-		};
-		9FC52CDDF38B98C4573E6847ECD964E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1ED0EC11F3BABF1445661A4978B28DB3;
-			remoteInfo = "dataTestLib-dataTestLib";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005288F57B8616DBDDB2723EB4F18C53 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		05DA21990FE86B986F36288905EEFFAA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		00924BE412D04B8054E72A61E1464A77 /* Pods_dataTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dataTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F64A1430CBF3E0FAFAC554D4AECCDF /* DatatistTracker v2.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "DatatistTracker v2.xcdatamodel"; sourceTree = "<group>"; };
 		0A39CCF16DE566EAF56700D308392FCF /* Pods-dataTestLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dataTestLib_Example.modulemap"; sourceTree = "<group>"; };
-		0F7E5E591B733E16A0465988BA3B7C41 /* DatatistCouponInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistCouponInfo.m; path = dataTestLib/Classes/DatatistCouponInfo.m; sourceTree = "<group>"; };
-		10A4A1F1F13644D438FEEF16CBB2AE32 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		113D17F044C8540AB6AE361DA098F7C9 /* Pods-dataTestLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dataTestLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		11DE42503704603B4018D9789BCB7B17 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		127D28E9931F23D4B719703672CF4B33 /* DTLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTLogger.h; sourceTree = "<group>"; };
-		131C937B3BF65D2070531C0F962BF9E9 /* PTEventEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTEventEntity.m; path = dataTestLib/Classes/PTEventEntity.m; sourceTree = "<group>"; };
 		13C1F41EDEEFA87ACF8D395E31A54BFD /* Pods-dataTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dataTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		19B245FF395A6FA305FABB45CE78A085 /* UIView+AutoStatistic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoStatistic.h"; sourceTree = "<group>"; };
-		1A214E4CC3119332123CD8226533AD2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1C4E8A105C8C4D3D5B8E84F71AB3C83F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C54979C35B1F7D3A7F229864A33C00C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CF11B13A474C745BB7EF437E37E6A4B /* PTEventEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTEventEntity.h; path = dataTestLib/Classes/PTEventEntity.h; sourceTree = "<group>"; };
-		203A89108F3A280783A5240936732CBC /* CustomType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomType.h; path = dataTestLib/Classes/CustomType.h; sourceTree = "<group>"; };
-		2236D8D95DBEB250321ACD0B570E9C57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		22454AF7EBC8A1AF7E142948AC2F0CB2 /* NSString+Date.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Date.m"; path = "dataTestLib/Classes/NSString+Date.m"; sourceTree = "<group>"; };
-		22F09DB49AFC7F38DD6491FB14374718 /* DatatistCouponInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistCouponInfo.h; path = dataTestLib/Classes/DatatistCouponInfo.h; sourceTree = "<group>"; };
-		241FE456B9B7043DC1DF3E52DDC2119A /* DatatistOldTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistOldTracker.h; path = dataTestLib/Classes/DatatistOldTracker.h; sourceTree = "<group>"; };
-		2423453596ABBD7D15A7472CE3FCB23E /* DatatistLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistLocationManager.h; path = dataTestLib/Classes/DatatistLocationManager.h; sourceTree = "<group>"; };
-		2432752BEBED6E48C7B512CE785E197C /* ResourceBundle-dataTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-dataTestLib-Info.plist"; sourceTree = "<group>"; };
-		2B2A43FA6E5C2EF9B34CBD14A762C900 /* Pods_dataTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dataTestLib_Tests.framework; path = "Pods-dataTestLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CEEE3D6340598F709A52CAED4F1F2D3 /* UICollectionView+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+AutoTrack.h"; sourceTree = "<group>"; };
-		2D268BAA62FD7CC9A20186EC6DBFDDC5 /* DatatistProductInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistProductInfo.h; path = dataTestLib/Classes/DatatistProductInfo.h; sourceTree = "<group>"; };
 		2D93D3A418C72642A61BECB87605E326 /* Pods-dataTestLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dataTestLib_Tests.modulemap"; sourceTree = "<group>"; };
 		2E93421C319B1B24075718A1003E0471 /* Pods-dataTestLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dataTestLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2FA320F7139295208A10C3D7C95ECEE7 /* UIView+AutoStatistic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoStatistic.m"; sourceTree = "<group>"; };
-		354D5217BAC13270B0B822128D9E4129 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		3EACB9A3B8779C9B23A71C146C220879 /* DatatistTracker.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = DatatistTracker.xcdatamodel; sourceTree = "<group>"; };
-		4877B97C02E1BDA45405C903755B0FC3 /* DatatistTransactionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistTransactionItem.h; path = dataTestLib/Classes/DatatistTransactionItem.h; sourceTree = "<group>"; };
-		4A47AD266DCF8B8079EA5EE3C38899A8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		4D9D58572C47547ADB9BE25CABA5E3C4 /* DatatistTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistTransaction.m; path = dataTestLib/Classes/DatatistTransaction.m; sourceTree = "<group>"; };
 		50603E587CBE1BB6F1435F482AE59864 /* Pods-dataTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dataTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		515C0EB5FEA10C415B54EE50F77B9131 /* dataTestLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dataTestLib.xcconfig; sourceTree = "<group>"; };
-		5646B0068F72DD2271401DE35FF92199 /* Constant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = dataTestLib/Classes/Constant.h; sourceTree = "<group>"; };
-		564895EE2DC1D385FD4C4D61E5FA8727 /* DatatistTracker v2.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "DatatistTracker v2.xcdatamodel"; sourceTree = "<group>"; };
+		558F10612F48D51AF4470E10DA37ED3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5918F1838D9B6AA016F2F70546130109 /* Pods-dataTestLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dataTestLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5DFB6783FAC4BFE571DC88E4A7B01957 /* Pods-dataTestLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dataTestLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		5E9A439229D142D53F876A3D06A6AC53 /* dataTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = dataTestLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		61B37288852250192E7694C556FCDF75 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		6263F63C6EE4362178572DF2E72B7B55 /* Pods-dataTestLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dataTestLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		62A1338A040BB9C9268BAB59E74F8FA0 /* UserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserAgent.h; path = dataTestLib/Classes/UserAgent.h; sourceTree = "<group>"; };
-		62EEB28AB6F4C69C16783238BDA70E17 /* DatatistNSURLSessionDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistNSURLSessionDispatcher.h; path = dataTestLib/Classes/DatatistNSURLSessionDispatcher.h; sourceTree = "<group>"; };
 		6419DFCBD97B1BCB1D31CFCEE2F4120D /* Pods-dataTestLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dataTestLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6943DDAD178DF56EBF8A25BB9B063DA6 /* SASwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SASwizzle.h; sourceTree = "<group>"; };
 		6A0068C46637BA059D57E42432768797 /* Pods-dataTestLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dataTestLib_Example-resources.sh"; sourceTree = "<group>"; };
-		6A76654ABB31F04AA35E8E46A0E1E1D9 /* DTLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTLogger.m; sourceTree = "<group>"; };
-		6B8EC3E87FE56298B7A27DBE567D0B6F /* DatatistDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistDispatcher.h; path = dataTestLib/Classes/DatatistDispatcher.h; sourceTree = "<group>"; };
-		6E50CCB3AD3C6661D9E9C65292283BC4 /* AutoTrackUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AutoTrackUtils.m; sourceTree = "<group>"; };
-		6EE99BEF80BC569063BC40F2C68CD8F5 /* libDatatistTracker.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libDatatistTracker.a; sourceTree = "<group>"; };
-		70E163E3A6C5AB818579FA7775DCAD77 /* DTReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTReachability.m; path = dataTestLib/Classes/DTReachability.m; sourceTree = "<group>"; };
-		71548BF3631E01AF7271E93B777E341B /* SASwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SASwizzle.m; sourceTree = "<group>"; };
-		71DB15BD3D483B8759F52B28AD0ADCE4 /* DatatistTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistTracker.m; path = dataTestLib/Classes/DatatistTracker.m; sourceTree = "<group>"; };
-		73C256A58C8F645E805C4A4CB0753BA7 /* DTReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTReachability.h; path = dataTestLib/Classes/DTReachability.h; sourceTree = "<group>"; };
-		7562F377CE640D52BE4DE3010A501A89 /* AutoTrackUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoTrackUtils.h; sourceTree = "<group>"; };
-		75DA932A483C17CBCFA574F18DC11F53 /* Pods_dataTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dataTestLib_Example.framework; path = "Pods-dataTestLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76EF9D20C201C5F4DD8E638DDB6938A7 /* dataTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dataTestLib-prefix.pch"; sourceTree = "<group>"; };
-		77DDFB1220F141ADC37084D77877F31A /* DatatistOrderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistOrderInfo.h; path = dataTestLib/Classes/DatatistOrderInfo.h; sourceTree = "<group>"; };
-		7854B963C75FB63B475F28530980EF31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A85EFCAD3D1D4CF0E37FFC32548E7F0 /* dataTestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dataTestLib-umbrella.h"; sourceTree = "<group>"; };
-		7C27B2D024FDA817635B4222E6FCAF99 /* DatatistTransactionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistTransactionItem.m; path = dataTestLib/Classes/DatatistTransactionItem.m; sourceTree = "<group>"; };
-		7CC985743F425FDBA6461293B98CE0C5 /* DatatistTransactionBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistTransactionBuilder.m; path = dataTestLib/Classes/DatatistTransactionBuilder.m; sourceTree = "<group>"; };
-		7D7972860512545E8EBB746FE205540A /* UICollectionView+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+AutoTrack.m"; sourceTree = "<group>"; };
-		840F229D1215D3EF7E2DCA7146DD97FD /* UIApplication+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AutoTrack.h"; sourceTree = "<group>"; };
-		8702BDCD4F99EB5BBC5CA098B29CD9B1 /* UIViewController+autoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+autoTrack.m"; sourceTree = "<group>"; };
-		8C1B388F911B221A83ECD046049C10EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8E83094E781F9483A27DE1745ACE0925 /* DatatistDebugDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistDebugDispatcher.h; path = dataTestLib/Classes/DatatistDebugDispatcher.h; sourceTree = "<group>"; };
-		8F0DC4A163A74460298D055790FEC631 /* dataTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = dataTestLib.framework; path = dataTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C5F23B89FF51F8C2A9B903BF080280 /* DatatistProductInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistProductInfo.m; path = dataTestLib/Classes/DatatistProductInfo.m; sourceTree = "<group>"; };
-		92B06D51838EF2B2E751D8A72F5F7154 /* dataTestLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = dataTestLib.bundle; path = "dataTestLib-dataTestLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95C0002291E7B9B999CBFD97646BB3B3 /* SASwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SASwizzler.h; sourceTree = "<group>"; };
-		96E2639E5F2E21708ED3BCADA8483A15 /* UserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UserAgent.m; path = dataTestLib/Classes/UserAgent.m; sourceTree = "<group>"; };
+		75B03DFF46620C606031FF271A6D19B7 /* libDatatistTracker.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libDatatistTracker.a; sourceTree = "<group>"; };
+		79D6F40DA766DBEFA379FCC14440AFBC /* dataTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = dataTestLib.podspec; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ABBA3D771CF01FF355B270F45615AF8 /* Pods-dataTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dataTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B2E6ECDC5B2B6606B5C05DB9A84D88B /* DatatistTracker.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = DatatistTracker.xcdatamodel; sourceTree = "<group>"; };
 		9C81858AE3821D8E1D3253FCBDDB0A23 /* Pods-dataTestLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dataTestLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9DECBB092170F476B67149CE318DFB37 /* NSString+Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Date.h"; path = "dataTestLib/Classes/NSString+Date.h"; sourceTree = "<group>"; };
 		AD620A01A5779F88A1A22DB5C9E985BF /* Pods-dataTestLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dataTestLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ADE10D8CF484C12C2B13AAB5000E3273 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B1625B9A87CA14F91314A98B8CD419A9 /* DatatistNSURLSessionDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistNSURLSessionDispatcher.m; path = dataTestLib/Classes/DatatistNSURLSessionDispatcher.m; sourceTree = "<group>"; };
+		AFF828E5861A003BD90E2A5E57CE4506 /* Pods_dataTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dataTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55259C187F91B4E9B4C536C05C408C8 /* Pods-dataTestLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dataTestLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B5F4D38D786A7D6C8A51B34F922B3B55 /* Pods-dataTestLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dataTestLib_Example-dummy.m"; sourceTree = "<group>"; };
-		B85AA88BE24940EAF6495170CC96727A /* DatatistOldTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistOldTracker.m; path = dataTestLib/Classes/DatatistOldTracker.m; sourceTree = "<group>"; };
-		B930FCB4A58B72CEBA58D7707DDD0398 /* DatatistTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistTransaction.h; path = dataTestLib/Classes/DatatistTransaction.h; sourceTree = "<group>"; };
 		BBB302D04E8FCE80A1F06FE4BDB33A84 /* Pods-dataTestLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dataTestLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		BC0312B0A17FB6CF93AEA935C91B46FE /* UITableView+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+AutoTrack.h"; sourceTree = "<group>"; };
-		C3815CE5CDAB65EFA1E7E2EC3949BC87 /* dataTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dataTestLib-dummy.m"; sourceTree = "<group>"; };
 		C769C1F159ABFD1B266067803E50950C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAF1EBB450179BC643A21811D139EBA9 /* UITableView+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+AutoTrack.m"; sourceTree = "<group>"; };
-		CF0A9F81F82ABD789BBB549F1E33DD90 /* DatatistOrderInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistOrderInfo.m; path = dataTestLib/Classes/DatatistOrderInfo.m; sourceTree = "<group>"; };
-		DA8986AF61EC8328B2F959ED91BDA416 /* DatatistTransactionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistTransactionBuilder.h; path = dataTestLib/Classes/DatatistTransactionBuilder.h; sourceTree = "<group>"; };
-		E1525456328F3BCDE09AB53607F69A75 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		E582633B61CB559AFEDDB30B96953EE8 /* dataTestLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = dataTestLib.modulemap; sourceTree = "<group>"; };
-		E5CDE3DF760D01F8899D26275F46AE66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E6A20981C9ECDAB8005B423B66DBD840 /* UIApplication+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AutoTrack.m"; sourceTree = "<group>"; };
-		E8928295A13F12CFA819C45DE094D1AE /* UIViewController+autoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+autoTrack.h"; sourceTree = "<group>"; };
-		E8E9942234EDFA953B2501105072A449 /* DatatistLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistLocationManager.m; path = dataTestLib/Classes/DatatistLocationManager.m; sourceTree = "<group>"; };
 		E8ED857C4F698BD27F361CC054300EEA /* Pods-dataTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dataTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E901BBC44DC36A703EDC62488CC200C1 /* SASwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SASwizzler.m; sourceTree = "<group>"; };
-		EB3D8A9AE3C653FF8227BC2EE0E23AC5 /* DatatistTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatatistTracker.h; path = dataTestLib/Classes/DatatistTracker.h; sourceTree = "<group>"; };
-		EF02AD96169D14EE32D756B5790059B7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		F7B3C77498422C6F6B893975E6B23530 /* DatatistDebugDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatatistDebugDispatcher.m; path = dataTestLib/Classes/DatatistDebugDispatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,85 +67,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58DC9F16FCE6FD0ED9ACED564499600A /* Frameworks */ = {
+		875D2F0526CDF15DB2BAD03F3273DD91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE34BA45CA249F07420989BD1782065F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D716EA7E14A7CF4FBFE5A3AC42BAAC5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E47D8A2F147F8FA9712680ACCAB6B0A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83A22D72B0551025FF747C0C126D0B28 /* CoreData.framework in Frameworks */,
-				E3BE4E712895623A17861229F1E185A4 /* CoreGraphics.framework in Frameworks */,
-				5408777B9AE93D7C7382C0CD155CC9FC /* CoreLocation.framework in Frameworks */,
-				B04FB10345F24D93EBF6A859758EA068 /* CoreTelephony.framework in Frameworks */,
-				E05FAE7F4867BD7AC11A4E963421D7BD /* Foundation.framework in Frameworks */,
-				D8551D9EC35438B6751017F238EA403C /* JavaScriptCore.framework in Frameworks */,
-				6095B69C01F9240C9055B63C8CF8F886 /* MapKit.framework in Frameworks */,
-				C7F010AE46FE00B8383D3DCAB3EED4BE /* MobileCoreServices.framework in Frameworks */,
-				1CF2645449A7747ED0255CE7824E56B7 /* Security.framework in Frameworks */,
-				440DE55D3458864DFA6C9CE38A89F88A /* SystemConfiguration.framework in Frameworks */,
-				DCB3698C5E37EE7574908AF65B92658C /* UIKit.framework in Frameworks */,
-				E1AFD77EF96C490F97FD5125AEC2C7AA /* UserNotifications.framework in Frameworks */,
+				D49D2100B6746E028D0207D8893FB1F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001B523D9D2DF2F336926E8A36E9F517 /* Support Files */ = {
+		222F613104699A54055E935CE8838336 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E582633B61CB559AFEDDB30B96953EE8 /* dataTestLib.modulemap */,
-				515C0EB5FEA10C415B54EE50F77B9131 /* dataTestLib.xcconfig */,
-				C3815CE5CDAB65EFA1E7E2EC3949BC87 /* dataTestLib-dummy.m */,
-				76EF9D20C201C5F4DD8E638DDB6938A7 /* dataTestLib-prefix.pch */,
-				7A85EFCAD3D1D4CF0E37FFC32548E7F0 /* dataTestLib-umbrella.h */,
-				7854B963C75FB63B475F28530980EF31 /* Info.plist */,
-				2432752BEBED6E48C7B512CE785E197C /* ResourceBundle-dataTestLib-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/dataTestLib";
-			sourceTree = "<group>";
-		};
-		021E276CCDDEDEFBA8A7BF978AF11AA6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				92B06D51838EF2B2E751D8A72F5F7154 /* dataTestLib.bundle */,
-				8F0DC4A163A74460298D055790FEC631 /* dataTestLib.framework */,
-				75DA932A483C17CBCFA574F18DC11F53 /* Pods_dataTestLib_Example.framework */,
-				2B2A43FA6E5C2EF9B34CBD14A762C900 /* Pods_dataTestLib_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		044D613882E8D8BF7354526B5EA016EF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5E9A439229D142D53F876A3D06A6AC53 /* dataTestLib.podspec */,
-				8C1B388F911B221A83ECD046049C10EA /* LICENSE */,
-				1A214E4CC3119332123CD8226533AD2A /* README.md */,
+				79D6F40DA766DBEFA379FCC14440AFBC /* dataTestLib.podspec */,
+				558F10612F48D51AF4470E10DA37ED3F /* LICENSE */,
+				1C4E8A105C8C4D3D5B8E84F71AB3C83F /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		168C85774C057B9BDEC460B0EB1E6757 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B84779ED7EC87DB0D9F357D597509BC4 /* dataTestLib */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		24845CC190B84375B8A9C5E68C172195 /* Pods-dataTestLib_Tests */ = {
@@ -318,23 +106,12 @@
 			path = "Target Support Files/Pods-dataTestLib_Tests";
 			sourceTree = "<group>";
 		};
-		31EEC345E535F565E5DBD818DB723A4D /* iOS */ = {
+		545A4A0B5910CC3DFAD00340895DD8F1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				005288F57B8616DBDDB2723EB4F18C53 /* CoreData.framework */,
-				2236D8D95DBEB250321ACD0B570E9C57 /* CoreGraphics.framework */,
-				11DE42503704603B4018D9789BCB7B17 /* CoreLocation.framework */,
-				EF02AD96169D14EE32D756B5790059B7 /* CoreTelephony.framework */,
-				ADE10D8CF484C12C2B13AAB5000E3273 /* Foundation.framework */,
-				10A4A1F1F13644D438FEEF16CBB2AE32 /* JavaScriptCore.framework */,
-				05DA21990FE86B986F36288905EEFFAA /* MapKit.framework */,
-				354D5217BAC13270B0B822128D9E4129 /* MobileCoreServices.framework */,
-				E1525456328F3BCDE09AB53607F69A75 /* Security.framework */,
-				61B37288852250192E7694C556FCDF75 /* SystemConfiguration.framework */,
-				E5CDE3DF760D01F8899D26275F46AE66 /* UIKit.framework */,
-				4A47AD266DCF8B8079EA5EE3C38899A8 /* UserNotifications.framework */,
+				F4EE8983DDF8B4CE3E4523742FA7D3F7 /* dataTestLib */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		57D27117A7F9EA6B4808217FF2438829 /* Pods-dataTestLib_Example */ = {
@@ -355,23 +132,31 @@
 			path = "Target Support Files/Pods-dataTestLib_Example";
 			sourceTree = "<group>";
 		};
-		6C61B79F4876C7F3FDBF4D19723DF865 /* Frameworks */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				31EEC345E535F565E5DBD818DB723A4D /* iOS */,
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				168C85774C057B9BDEC460B0EB1E6757 /* Development Pods */,
-				6C61B79F4876C7F3FDBF4D19723DF865 /* Frameworks */,
-				021E276CCDDEDEFBA8A7BF978AF11AA6 /* Products */,
+				545A4A0B5910CC3DFAD00340895DD8F1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FA8DE5E3AF49DB5A15A73ECCE6EB3DCC /* Products */,
 				960F0947B07A5D22B28E03C0BFDABEA7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		958FA664622B91A58870CDCF4B64DE74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B03DFF46620C606031FF271A6D19B7 /* libDatatistTracker.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		960F0947B07A5D22B28E03C0BFDABEA7 /* Targets Support Files */ = {
@@ -383,149 +168,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9E8108482BDF585C12074BCEA4301FA9 /* Resources */ = {
+		9E779E5B1F63C3B732AE1068A807068C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B16020715AD092150CE608A2E9493E35 /* DatatistTracker.xcdatamodeld */,
+				1E67AB4C3F806F18506016D3546649F9 /* DatatistTracker.xcdatamodeld */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		B0D41135B11946B16F685EF945D871A7 /* Frameworks */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EE99BEF80BC569063BC40F2C68CD8F5 /* libDatatistTracker.a */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B84779ED7EC87DB0D9F357D597509BC4 /* dataTestLib */ = {
+		F4EE8983DDF8B4CE3E4523742FA7D3F7 /* dataTestLib */ = {
 			isa = PBXGroup;
 			children = (
-				5646B0068F72DD2271401DE35FF92199 /* Constant.h */,
-				203A89108F3A280783A5240936732CBC /* CustomType.h */,
-				22F09DB49AFC7F38DD6491FB14374718 /* DatatistCouponInfo.h */,
-				0F7E5E591B733E16A0465988BA3B7C41 /* DatatistCouponInfo.m */,
-				8E83094E781F9483A27DE1745ACE0925 /* DatatistDebugDispatcher.h */,
-				F7B3C77498422C6F6B893975E6B23530 /* DatatistDebugDispatcher.m */,
-				6B8EC3E87FE56298B7A27DBE567D0B6F /* DatatistDispatcher.h */,
-				2423453596ABBD7D15A7472CE3FCB23E /* DatatistLocationManager.h */,
-				E8E9942234EDFA953B2501105072A449 /* DatatistLocationManager.m */,
-				62EEB28AB6F4C69C16783238BDA70E17 /* DatatistNSURLSessionDispatcher.h */,
-				B1625B9A87CA14F91314A98B8CD419A9 /* DatatistNSURLSessionDispatcher.m */,
-				241FE456B9B7043DC1DF3E52DDC2119A /* DatatistOldTracker.h */,
-				B85AA88BE24940EAF6495170CC96727A /* DatatistOldTracker.m */,
-				77DDFB1220F141ADC37084D77877F31A /* DatatistOrderInfo.h */,
-				CF0A9F81F82ABD789BBB549F1E33DD90 /* DatatistOrderInfo.m */,
-				2D268BAA62FD7CC9A20186EC6DBFDDC5 /* DatatistProductInfo.h */,
-				90C5F23B89FF51F8C2A9B903BF080280 /* DatatistProductInfo.m */,
-				EB3D8A9AE3C653FF8227BC2EE0E23AC5 /* DatatistTracker.h */,
-				71DB15BD3D483B8759F52B28AD0ADCE4 /* DatatistTracker.m */,
-				B930FCB4A58B72CEBA58D7707DDD0398 /* DatatistTransaction.h */,
-				4D9D58572C47547ADB9BE25CABA5E3C4 /* DatatistTransaction.m */,
-				DA8986AF61EC8328B2F959ED91BDA416 /* DatatistTransactionBuilder.h */,
-				7CC985743F425FDBA6461293B98CE0C5 /* DatatistTransactionBuilder.m */,
-				4877B97C02E1BDA45405C903755B0FC3 /* DatatistTransactionItem.h */,
-				7C27B2D024FDA817635B4222E6FCAF99 /* DatatistTransactionItem.m */,
-				73C256A58C8F645E805C4A4CB0753BA7 /* DTReachability.h */,
-				70E163E3A6C5AB818579FA7775DCAD77 /* DTReachability.m */,
-				9DECBB092170F476B67149CE318DFB37 /* NSString+Date.h */,
-				22454AF7EBC8A1AF7E142948AC2F0CB2 /* NSString+Date.m */,
-				1CF11B13A474C745BB7EF437E37E6A4B /* PTEventEntity.h */,
-				131C937B3BF65D2070531C0F962BF9E9 /* PTEventEntity.m */,
-				62A1338A040BB9C9268BAB59E74F8FA0 /* UserAgent.h */,
-				96E2639E5F2E21708ED3BCADA8483A15 /* UserAgent.m */,
-				FACFA7030119C22CCCF4A866BCDF3FA6 /* autoTrack */,
-				B0D41135B11946B16F685EF945D871A7 /* Frameworks */,
-				044D613882E8D8BF7354526B5EA016EF /* Pod */,
-				9E8108482BDF585C12074BCEA4301FA9 /* Resources */,
-				001B523D9D2DF2F336926E8A36E9F517 /* Support Files */,
-				D06D76C7B791C896B21E7C3953A3FD7B /* Swizzle */,
+				958FA664622B91A58870CDCF4B64DE74 /* Frameworks */,
+				222F613104699A54055E935CE8838336 /* Pod */,
+				9E779E5B1F63C3B732AE1068A807068C /* Resources */,
 			);
 			name = dataTestLib;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D06D76C7B791C896B21E7C3953A3FD7B /* Swizzle */ = {
+		FA8DE5E3AF49DB5A15A73ECCE6EB3DCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6943DDAD178DF56EBF8A25BB9B063DA6 /* SASwizzle.h */,
-				71548BF3631E01AF7271E93B777E341B /* SASwizzle.m */,
-				E8928295A13F12CFA819C45DE094D1AE /* UIViewController+autoTrack.h */,
-				8702BDCD4F99EB5BBC5CA098B29CD9B1 /* UIViewController+autoTrack.m */,
+				00924BE412D04B8054E72A61E1464A77 /* Pods_dataTestLib_Example.framework */,
+				AFF828E5861A003BD90E2A5E57CE4506 /* Pods_dataTestLib_Tests.framework */,
 			);
-			name = Swizzle;
-			path = dataTestLib/Classes/Swizzle;
-			sourceTree = "<group>";
-		};
-		FACFA7030119C22CCCF4A866BCDF3FA6 /* autoTrack */ = {
-			isa = PBXGroup;
-			children = (
-				7562F377CE640D52BE4DE3010A501A89 /* AutoTrackUtils.h */,
-				6E50CCB3AD3C6661D9E9C65292283BC4 /* AutoTrackUtils.m */,
-				127D28E9931F23D4B719703672CF4B33 /* DTLogger.h */,
-				6A76654ABB31F04AA35E8E46A0E1E1D9 /* DTLogger.m */,
-				95C0002291E7B9B999CBFD97646BB3B3 /* SASwizzler.h */,
-				E901BBC44DC36A703EDC62488CC200C1 /* SASwizzler.m */,
-				840F229D1215D3EF7E2DCA7146DD97FD /* UIApplication+AutoTrack.h */,
-				E6A20981C9ECDAB8005B423B66DBD840 /* UIApplication+AutoTrack.m */,
-				2CEEE3D6340598F709A52CAED4F1F2D3 /* UICollectionView+AutoTrack.h */,
-				7D7972860512545E8EBB746FE205540A /* UICollectionView+AutoTrack.m */,
-				BC0312B0A17FB6CF93AEA935C91B46FE /* UITableView+AutoTrack.h */,
-				CAF1EBB450179BC643A21811D139EBA9 /* UITableView+AutoTrack.m */,
-				19B245FF395A6FA305FABB45CE78A085 /* UIView+AutoStatistic.h */,
-				2FA320F7139295208A10C3D7C95ECEE7 /* UIView+AutoStatistic.m */,
-			);
-			name = autoTrack;
-			path = dataTestLib/Classes/autoTrack;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		371D2F38EB84EAC827E915ACE0DD1CCD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A9458D3E057D3C31FF91C6B807AC737 /* AutoTrackUtils.h in Headers */,
-				6703D4B594225B9147746CA0867736CA /* Constant.h in Headers */,
-				FE84966BF1125E6566EFB9F13FA1807D /* CustomType.h in Headers */,
-				A79C236F93F07AAC3C621C166AF282A3 /* dataTestLib-umbrella.h in Headers */,
-				8D5F0718B208C531F8AFBE0815CBA430 /* DatatistCouponInfo.h in Headers */,
-				7E89E39F7F8EE04469F97C90AC644541 /* DatatistDebugDispatcher.h in Headers */,
-				A5CE2C188463A44874C8C7377772E96B /* DatatistDispatcher.h in Headers */,
-				AA15DC7C5C6A8F45B63FB057B2B57BD1 /* DatatistLocationManager.h in Headers */,
-				0AE5270BC42D4C870E755B6CE8547F25 /* DatatistNSURLSessionDispatcher.h in Headers */,
-				B18626D4EBBC68689771F271A79C5D31 /* DatatistOldTracker.h in Headers */,
-				7D7B8E958C15DDF7DDDDDCB095F35AAB /* DatatistOrderInfo.h in Headers */,
-				648F133FCA61A436998DCCEA219159EC /* DatatistProductInfo.h in Headers */,
-				03562A295B6BF06A9C376E0BD9969843 /* DatatistTracker.h in Headers */,
-				37182F1E10A7F44004D6D9C9D2E97CFA /* DatatistTransaction.h in Headers */,
-				F69DAB4AF92A2F27348E726A3BDC2F03 /* DatatistTransactionBuilder.h in Headers */,
-				F003FFECCBE8FAC5C9FB96FD63231A32 /* DatatistTransactionItem.h in Headers */,
-				64F29BB883D32DEEC31ACC1780DFD13A /* DTLogger.h in Headers */,
-				AA87322F7D3CAD3B626BB1504381BD45 /* DTReachability.h in Headers */,
-				7A5F49A9F3DF2119194B796FBEAE464C /* NSString+Date.h in Headers */,
-				AA29CE0988BA9EB4A91EBD41A0BEDD3D /* PTEventEntity.h in Headers */,
-				15FFD27FD92422C770B2D21EF78A0958 /* SASwizzle.h in Headers */,
-				40DD9406B6B199030DE726266C9FCB0D /* SASwizzler.h in Headers */,
-				19629817BC35CEFC6CB248FEDD96E3F4 /* UIApplication+AutoTrack.h in Headers */,
-				3F260DCB41CD8570FB72FCA993B21FC9 /* UICollectionView+AutoTrack.h in Headers */,
-				39E5D0C678AA7B8A62FE69B1004A2D89 /* UITableView+AutoTrack.h in Headers */,
-				A4B50045B6BC7C5E14B020669A206049 /* UIView+AutoStatistic.h in Headers */,
-				AE2CE344C97F3D0D57982CC30368825B /* UIViewController+autoTrack.h in Headers */,
-				D596E7A5B49696E044238A18F10AF995 /* UserAgent.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87BA7657DA2B07EA49D715A2A078B9A7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8799B1D267149A46133CCB63ED3CFB6 /* Pods-dataTestLib_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3D1ECF9441E8A44963B5F427A5377C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,26 +215,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFE897C6403119B299151AB1590D8E52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A792CC577B9E1F492F8D61303845D5CE /* Pods-dataTestLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1ED0EC11F3BABF1445661A4978B28DB3 /* dataTestLib-dataTestLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6C43344E3700FA7B4842410A377A828 /* Build configuration list for PBXNativeTarget "dataTestLib-dataTestLib" */;
-			buildPhases = (
-				DCBE95486D13D14724BB460C744FED89 /* Sources */,
-				58DC9F16FCE6FD0ED9ACED564499600A /* Frameworks */,
-				8AEFF9A4F58B69CA0C9908219F83C75B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "dataTestLib-dataTestLib";
-			productName = "dataTestLib-dataTestLib";
-			productReference = 92B06D51838EF2B2E751D8A72F5F7154 /* dataTestLib.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		1F733AA9B9C1D017EFE87C1CF5D3C70A /* Pods-dataTestLib_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4437E3251660D0B20AC52FF302DE11A /* Build configuration list for PBXNativeTarget "Pods-dataTestLib_Tests" */;
@@ -569,44 +241,24 @@
 			);
 			name = "Pods-dataTestLib_Tests";
 			productName = "Pods-dataTestLib_Tests";
-			productReference = 2B2A43FA6E5C2EF9B34CBD14A762C900 /* Pods_dataTestLib_Tests.framework */;
+			productReference = AFF828E5861A003BD90E2A5E57CE4506 /* Pods_dataTestLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5128F01A9A18C4DB2881941B50C1E85D /* Pods-dataTestLib_Example */ = {
+		F3B57AE25D51BFAFDB57BB2249DDF654 /* Pods-dataTestLib_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21794D0469FA338B4333AF0DD2F96BF1 /* Build configuration list for PBXNativeTarget "Pods-dataTestLib_Example" */;
+			buildConfigurationList = 8BF209FCBF363B5DDCD63ADE871E29F1 /* Build configuration list for PBXNativeTarget "Pods-dataTestLib_Example" */;
 			buildPhases = (
-				65A922E449F58D505A4BF7D3EA754247 /* Sources */,
-				DE34BA45CA249F07420989BD1782065F /* Frameworks */,
-				87BA7657DA2B07EA49D715A2A078B9A7 /* Headers */,
+				656EA4A1F40824E84930E862D02AC0AC /* Sources */,
+				875D2F0526CDF15DB2BAD03F3273DD91 /* Frameworks */,
+				FFE897C6403119B299151AB1590D8E52 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				171443E2107D0224BC10413E802BB70C /* PBXTargetDependency */,
 			);
 			name = "Pods-dataTestLib_Example";
 			productName = "Pods-dataTestLib_Example";
-			productReference = 75DA932A483C17CBCFA574F18DC11F53 /* Pods_dataTestLib_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		78BAA083D5BFBEC8B00FDDAC2F2CE0FE /* dataTestLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AED3B1F314911DFA09A14269B2AE1486 /* Build configuration list for PBXNativeTarget "dataTestLib" */;
-			buildPhases = (
-				7D3AE4E86B06E7881B23541B0DC51398 /* Sources */,
-				E47D8A2F147F8FA9712680ACCAB6B0A1 /* Frameworks */,
-				9C7EF67CD2E60FC220F4029FEFA7AA42 /* Resources */,
-				371D2F38EB84EAC827E915ACE0DD1CCD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				191F5730F3565107EAD46C5568BBBDEA /* PBXTargetDependency */,
-			);
-			name = dataTestLib;
-			productName = dataTestLib;
-			productReference = 8F0DC4A163A74460298D055790FEC631 /* dataTestLib.framework */;
+			productReference = 00924BE412D04B8054E72A61E1464A77 /* Pods_dataTestLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -626,35 +278,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 021E276CCDDEDEFBA8A7BF978AF11AA6 /* Products */;
+			productRefGroup = FA8DE5E3AF49DB5A15A73ECCE6EB3DCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78BAA083D5BFBEC8B00FDDAC2F2CE0FE /* dataTestLib */,
-				1ED0EC11F3BABF1445661A4978B28DB3 /* dataTestLib-dataTestLib */,
-				5128F01A9A18C4DB2881941B50C1E85D /* Pods-dataTestLib_Example */,
+				F3B57AE25D51BFAFDB57BB2249DDF654 /* Pods-dataTestLib_Example */,
 				1F733AA9B9C1D017EFE87C1CF5D3C70A /* Pods-dataTestLib_Tests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		8AEFF9A4F58B69CA0C9908219F83C75B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C7EF67CD2E60FC220F4029FEFA7AA42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C8BC6B5F31F60074AC19C24CABDE511 /* dataTestLib.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0DC985C90AE052FB652FE26F968DA1ED /* Sources */ = {
@@ -665,81 +297,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65A922E449F58D505A4BF7D3EA754247 /* Sources */ = {
+		656EA4A1F40824E84930E862D02AC0AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E87BFA81776717EBA1F6AC8C72FEE79 /* Pods-dataTestLib_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D3AE4E86B06E7881B23541B0DC51398 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				251656D85C2D285C7BF2FF2763300F37 /* AutoTrackUtils.m in Sources */,
-				CD95F585B636347E5FD3B7BF0F7402FA /* dataTestLib-dummy.m in Sources */,
-				E53A9DB0856CE7C4870ED701864B851C /* DatatistCouponInfo.m in Sources */,
-				4BEA858A6CA704D81144F430890C2C40 /* DatatistDebugDispatcher.m in Sources */,
-				7A7C1B6EAA3F4AD74BDD777A0158A484 /* DatatistLocationManager.m in Sources */,
-				F5EFADF1A687E0BFABA80B26C7177773 /* DatatistNSURLSessionDispatcher.m in Sources */,
-				98C1D5739BEFB2691A8E730AAE980E54 /* DatatistOldTracker.m in Sources */,
-				4378D429E925DDBB1E653847B1B77619 /* DatatistOrderInfo.m in Sources */,
-				A6135AA29DC37AA60D12EC9CE3F4B561 /* DatatistProductInfo.m in Sources */,
-				6907105FABBC780D0D985DBFB95FCD33 /* DatatistTracker.m in Sources */,
-				457F03BAE7097DCABE72CF7A4F0108ED /* DatatistTracker.xcdatamodeld in Sources */,
-				DA0C9FB9444164990619932B99A53F42 /* DatatistTransaction.m in Sources */,
-				9BCB45CEBE2FFA31D10962C052951877 /* DatatistTransactionBuilder.m in Sources */,
-				DF0386EEEA2B2FBC36BD41A1FFBFC372 /* DatatistTransactionItem.m in Sources */,
-				6DD381DBA5B1B609278FE74D1BA783A7 /* DTLogger.m in Sources */,
-				D3E64372A9A20FF1132C14901DE6135B /* DTReachability.m in Sources */,
-				5C51B2CD5D5E735E9F26E2DE07C37DFD /* NSString+Date.m in Sources */,
-				5D2C47E2B837DFA6EC85BC973283D70F /* PTEventEntity.m in Sources */,
-				21F34B43786871E767B95CC1B011ADE6 /* SASwizzle.m in Sources */,
-				E729380CD038142F4F3A4043C1544423 /* SASwizzler.m in Sources */,
-				414F988284D1B76D9F4DB9C84D823118 /* UIApplication+AutoTrack.m in Sources */,
-				8DC3BCAB82832DE924F1B86121D87C5B /* UICollectionView+AutoTrack.m in Sources */,
-				D0741735357B90CEF820DE899AE5E076 /* UITableView+AutoTrack.m in Sources */,
-				F54E6E5D99C9A0763BB04C66B18E4D01 /* UIView+AutoStatistic.m in Sources */,
-				57388744704FC62CC1B6193FD9C1C210 /* UIViewController+autoTrack.m in Sources */,
-				7224117B2D35EA23241AF330B0BC93A4 /* UserAgent.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCBE95486D13D14724BB460C744FED89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				02E347C0EACF9FF8FD05C20FBBAAE23A /* Pods-dataTestLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		171443E2107D0224BC10413E802BB70C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = dataTestLib;
-			target = 78BAA083D5BFBEC8B00FDDAC2F2CE0FE /* dataTestLib */;
-			targetProxy = 3D657DECEB891275791ACB871F9E52E6 /* PBXContainerItemProxy */;
-		};
-		191F5730F3565107EAD46C5568BBBDEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "dataTestLib-dataTestLib";
-			target = 1ED0EC11F3BABF1445661A4978B28DB3 /* dataTestLib-dataTestLib */;
-			targetProxy = 9FC52CDDF38B98C4573E6847ECD964E8 /* PBXContainerItemProxy */;
-		};
 		2F83422B0BCDE64374C20FBB538B3E9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-dataTestLib_Example";
-			target = 5128F01A9A18C4DB2881941B50C1E85D /* Pods-dataTestLib_Example */;
+			target = F3B57AE25D51BFAFDB57BB2249DDF654 /* Pods-dataTestLib_Example */;
 			targetProxy = 590506F28167CB345799B24AC4C4776E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		37E2CB1290C588B5C32A8CD81BF58925 /* Debug */ = {
+		0331B184E731C245A48438E99A15FCD7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8ED857C4F698BD27F361CC054300EEA /* Pods-dataTestLib_Example.debug.xcconfig */;
+			baseConfigurationReference = 13C1F41EDEEFA87ACF8D395E31A54BFD /* Pods-dataTestLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -765,72 +345,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		519E1BF43AC3932E41F6725F2CB6CADA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515C0EB5FEA10C415B54EE50F77B9131 /* dataTestLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/dataTestLib/dataTestLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/dataTestLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/dataTestLib/dataTestLib.modulemap";
-				PRODUCT_MODULE_NAME = dataTestLib;
-				PRODUCT_NAME = dataTestLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7E6884B88670513F4E250C633DF3859D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515C0EB5FEA10C415B54EE50F77B9131 /* dataTestLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/dataTestLib";
-				INFOPLIST_FILE = "Target Support Files/dataTestLib/ResourceBundle-dataTestLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = dataTestLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		802A355096A4757A4F5EF692DABA2E80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515C0EB5FEA10C415B54EE50F77B9131 /* dataTestLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/dataTestLib";
-				INFOPLIST_FILE = "Target Support Files/dataTestLib/ResourceBundle-dataTestLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = dataTestLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -986,71 +505,6 @@
 			};
 			name = Debug;
 		};
-		CA46D4913AFAAED74E98281CB2DFF7B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13C1F41EDEEFA87ACF8D395E31A54BFD /* Pods-dataTestLib_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-dataTestLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-dataTestLib_Example/Pods-dataTestLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D4803EDAFAC065D5648B44299F670D46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515C0EB5FEA10C415B54EE50F77B9131 /* dataTestLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/dataTestLib/dataTestLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/dataTestLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/dataTestLib/dataTestLib.modulemap";
-				PRODUCT_MODULE_NAME = dataTestLib;
-				PRODUCT_NAME = dataTestLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E0BB7C708A9C8BABEC3DAFB2953C7BCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50603E587CBE1BB6F1435F482AE59864 /* Pods-dataTestLib_Tests.release.xcconfig */;
@@ -1085,18 +539,42 @@
 			};
 			name = Release;
 		};
+		F410B7EBE7168087313B3287EBD9C1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8ED857C4F698BD27F361CC054300EEA /* Pods-dataTestLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dataTestLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dataTestLib_Example/Pods-dataTestLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21794D0469FA338B4333AF0DD2F96BF1 /* Build configuration list for PBXNativeTarget "Pods-dataTestLib_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37E2CB1290C588B5C32A8CD81BF58925 /* Debug */,
-				CA46D4913AFAAED74E98281CB2DFF7B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1106,20 +584,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AED3B1F314911DFA09A14269B2AE1486 /* Build configuration list for PBXNativeTarget "dataTestLib" */ = {
+		8BF209FCBF363B5DDCD63ADE871E29F1 /* Build configuration list for PBXNativeTarget "Pods-dataTestLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				519E1BF43AC3932E41F6725F2CB6CADA /* Debug */,
-				D4803EDAFAC065D5648B44299F670D46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6C43344E3700FA7B4842410A377A828 /* Build configuration list for PBXNativeTarget "dataTestLib-dataTestLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				802A355096A4757A4F5EF692DABA2E80 /* Debug */,
-				7E6884B88670513F4E250C633DF3859D /* Release */,
+				F410B7EBE7168087313B3287EBD9C1D3 /* Debug */,
+				0331B184E731C245A48438E99A15FCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1136,13 +605,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B16020715AD092150CE608A2E9493E35 /* DatatistTracker.xcdatamodeld */ = {
+		1E67AB4C3F806F18506016D3546649F9 /* DatatistTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3EACB9A3B8779C9B23A71C146C220879 /* DatatistTracker.xcdatamodel */,
-				564895EE2DC1D385FD4C4D61E5FA8727 /* DatatistTracker v2.xcdatamodel */,
+				9B2E6ECDC5B2B6606B5C05DB9A84D88B /* DatatistTracker.xcdatamodel */,
+				00F64A1430CBF3E0FAFAC554D4AECCDF /* DatatistTracker v2.xcdatamodel */,
 			);
-			currentVersion = 3EACB9A3B8779C9B23A71C146C220879 /* DatatistTracker.xcdatamodel */;
+			currentVersion = 9B2E6ECDC5B2B6606B5C05DB9A84D88B /* DatatistTracker.xcdatamodel */;
 			name = DatatistTracker.xcdatamodeld;
 			path = dataTestLib/Resource/DatatistTracker.xcdatamodeld;
 			sourceTree = "<group>";

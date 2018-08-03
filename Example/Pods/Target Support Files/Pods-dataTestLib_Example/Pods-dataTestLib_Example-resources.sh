@@ -91,6 +91,20 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker v2.xcdatamodel/contents"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker.xcdatamodel/contents"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker v2.xcdatamodel"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker.xcdatamodel"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker v2.xcdatamodel/contents"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker.xcdatamodel/contents"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker v2.xcdatamodel"
+  install_resource "${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker.xcdatamodel"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

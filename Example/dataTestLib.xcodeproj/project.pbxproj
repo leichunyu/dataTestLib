@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2D506AA551B16CF355E7B911 /* [CP] Embed Pods Frameworks */,
+				48E788AC74DC3B06642CAEE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D506AA551B16CF355E7B911 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-dataTestLib_Example/Pods-dataTestLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/dataTestLib/dataTestLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dataTestLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dataTestLib_Example/Pods-dataTestLib_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		47A050F293C9F7133B4ED450 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +310,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E788AC74DC3B06642CAEE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dataTestLib_Example/Pods-dataTestLib_Example-resources.sh",
+				"${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker v2.xcdatamodel/contents",
+				"${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker.xcdatamodel/contents",
+				"${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld",
+				"${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker v2.xcdatamodel",
+				"${PODS_ROOT}/../../dataTestLib/Resource/DatatistTracker.xcdatamodeld/DatatistTracker.xcdatamodel",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/contents",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DatatistTracker.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DatatistTracker v2.mom",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DatatistTracker.mom",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dataTestLib_Example/Pods-dataTestLib_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EC9112844F4C4D8A797DFB40 /* [CP] Check Pods Manifest.lock */ = {
