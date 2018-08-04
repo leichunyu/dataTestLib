@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dataTestLib'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A demo for dataTestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,9 @@ TODO: Add long description of the pod here.
   s.ios.library = 'c++', 'stdc++', 'z'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   
-   # s.resource_bundles = 'dataTestLib/Assets/*.png'
+   s.resource_bundles = 'dataTestLib/Assets/*.png'
    s.public_header_files = 'dataTestLib/Classes/DatatistCouponInfo.h', 'dataTestLib/Classes/DatatistDispatcher.h', 'dataTestLib/Classes/DatatistNSURLSessionDispatcher.h', 'dataTestLib/Classes/DatatistOrderInfo.h', 'dataTestLib/Classes/DatatistProductInfo.h', 'dataTestLib/Classes/DatatistTracker.h', 'dataTestLib/Classes/DatatistTransaction.h', 'dataTestLib/Classes/DatatistTransactionBuilder.h'
-   s.resources = "dataTestLib/Resource/**/*"
+   #s.resources = "dataTestLib/Resource/**/*"
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'WebViewJavascriptBridge'
