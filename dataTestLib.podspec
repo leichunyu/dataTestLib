@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'dataTestLib/Classes/**/*','dataTestLib/Resource/**/DatatistTracker.xcdatamodeld'
+  s.source_files = 'include/*.h'
+   s.public_header_files = 'include/*.h'
   s.vendored_libraries = 'libdataTestLib.a'
    s.frameworks = 'UIKit', 'MapKit', 'Security', 'CoreLocation', 'UserNotifications', 'CoreData', 'CoreTelephony', 'MobileCoreServices', 'JavaScriptCore', 'CoreGraphics', 'Foundation', 'SystemConfiguration'
   s.ios.library = 'c++', 'stdc++', 'z'
@@ -40,7 +42,7 @@ TODO: Add long description of the pod here.
 s.resource_bundles = {
 'dataTestLib' => 'dataTestLib/Assets/*.{png,xib,plist}'
 }
-   s.public_header_files = 'dataTestLib/Classes/DatatistCouponInfo.h', 'dataTestLib/Classes/DatatistDispatcher.h', 'dataTestLib/Classes/DatatistNSURLSessionDispatcher.h', 'dataTestLib/Classes/DatatistOrderInfo.h', 'dataTestLib/Classes/DatatistProductInfo.h', 'dataTestLib/Classes/DatatistTracker.h', 'dataTestLib/Classes/DatatistTransaction.h', 'dataTestLib/Classes/DatatistTransactionBuilder.h'
+   #s.public_header_files = 'dataTestLib/Classes/DatatistCouponInfo.h', 'dataTestLib/Classes/DatatistDispatcher.h', 'dataTestLib/Classes/DatatistNSURLSessionDispatcher.h', 'dataTestLib/Classes/DatatistOrderInfo.h', 'dataTestLib/Classes/DatatistProductInfo.h', 'dataTestLib/Classes/DatatistTracker.h', 'dataTestLib/Classes/DatatistTransaction.h', 'dataTestLib/Classes/DatatistTransactionBuilder.h'
    #s.resources = "dataTestLib/Resource/**/*"
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

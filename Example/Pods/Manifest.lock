@@ -1,5 +1,5 @@
 PODS:
-  - dataTestLib (0.0.5):
+  - dataTestLib (0.0.6):
     - WebViewJavascriptBridge
   - WebViewJavascriptBridge (6.0.3)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  dataTestLib: ff1290d2819dca203a68b3ca9c7634a385a30aef
+  dataTestLib: 4886da7c258afcaee24f574eabfc7a9a56698ed9
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
 PODFILE CHECKSUM: 6982d7111365f57b26417022a88c8b1422d04746
