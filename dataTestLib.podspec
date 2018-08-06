@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   
    #s.resource_bundles = 'dataTestLib/Assets/**/*.png'
   s.resource_bundles = {
-    'dataTestLib' => 'lib/*.boundle'
+    'dataTestLib' => 'lib/**/*.png'
 }
    #s.public_header_files = 'dataTestLib/Classes/DatatistCouponInfo.h', 'dataTestLib/Classes/DatatistDispatcher.h', 'dataTestLib/Classes/DatatistNSURLSessionDispatcher.h', 'dataTestLib/Classes/DatatistOrderInfo.h', 'dataTestLib/Classes/DatatistProductInfo.h', 'dataTestLib/Classes/DatatistTracker.h', 'dataTestLib/Classes/DatatistTransaction.h', 'dataTestLib/Classes/DatatistTransactionBuilder.h'
    #s.resources = "dataTestLib/Resource/**/*"
