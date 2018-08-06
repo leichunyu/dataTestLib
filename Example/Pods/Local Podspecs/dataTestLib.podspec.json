@@ -1,6 +1,6 @@
 {
   "name": "dataTestLib",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "summary": "A demo for dataTestLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/leichunyu/dataTestLib",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/leichunyu/dataTestLib.git",
-    "tag": "0.0.6"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "include/*.h",
-  "public_header_files": "include/*.h",
-  "vendored_libraries": "libdataTestLib.a",
+  "source_files": "lib/include/*.h",
+  "public_header_files": "lib/include/*.h",
+  "vendored_libraries": "lib/*.a",
   "frameworks": [
     "UIKit",
     "MapKit",
@@ -33,7 +33,8 @@
     "JavaScriptCore",
     "CoreGraphics",
     "Foundation",
-    "SystemConfiguration"
+    "SystemConfiguration",
+    "WebKit"
   ],
   "ios": {
     "libraries": [
@@ -46,7 +47,7 @@
     "OTHER_LDFLAGS": "-ObjC"
   },
   "resource_bundles": {
-    "dataTestLib": "dataTestLib/Assets/*.{png,xib,plist}"
+    "dataTestLib": "lib/*.boundle"
   },
   "dependencies": {
     "WebViewJavascriptBridge": [
