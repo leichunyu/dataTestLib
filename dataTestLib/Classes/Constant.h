@@ -18,7 +18,7 @@ static NSString * const DatatistTrackerVersion = @"2.2.1";
 static NSString * const DatatistSessionStartNotification = @"DatatistSessionStartNotification";
 
 
-// Datatist query parameter names
+// Datatist query parameter names dfdfd
 //---------------------------------- Identify Info -------------------------------------
 static NSString * const DatatistParameterSiteID = @"siteId";
 static NSString * const DatatistParameterEventTime = @"eventTime";
