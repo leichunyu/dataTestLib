@@ -1,6 +1,6 @@
 {
   "name": "dataTestLib",
-  "version": "0.0.8",
+  "version": "0.1.2",
   "summary": "A demo for dataTestLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/leichunyu/dataTestLib",
@@ -13,14 +13,16 @@
   },
   "source": {
     "git": "https://github.com/leichunyu/dataTestLib.git",
-    "tag": "0.0.8"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "lib/include/*.h",
+  "source_files": [
+    "dataTestLib/Classes/**/*",
+    "dataTestLib/Resource/**/DatatistTracker.xcdatamodeld"
+  ],
   "public_header_files": "lib/include/*.h",
-  "vendored_libraries": "lib/*.a",
   "frameworks": [
     "UIKit",
     "MapKit",
@@ -47,7 +49,7 @@
     "OTHER_LDFLAGS": "-ObjC"
   },
   "resource_bundles": {
-    "dataTestLib": "lib/*.boundle"
+    "dataTestLib": "lib/DTResource.bundle"
   },
   "dependencies": {
     "WebViewJavascriptBridge": [

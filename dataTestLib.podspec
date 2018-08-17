@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'dataTestLib/Classes/**/*','dataTestLib/Resource/**/DatatistTracker.xcdatamodeld'
-  s.source_files = 'lib/include/*.h'
+  s.source_files = 'dataTestLib/Classes/**/*','dataTestLib/Resource/**/DatatistTracker.xcdatamodeld'
+  #s.source_files = 'lib/include/*.h'
    s.public_header_files = 'lib/include/*.h'
-  s.vendored_libraries = 'lib/*.a'
+  #s.vendored_libraries = 'lib/*.a'
    s.frameworks = 'UIKit', 'MapKit', 'Security', 'CoreLocation', 'UserNotifications', 'CoreData', 'CoreTelephony', 'MobileCoreServices', 'JavaScriptCore', 'CoreGraphics', 'Foundation', 'SystemConfiguration'
   s.ios.library = 'c++', 'stdc++', 'z'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
