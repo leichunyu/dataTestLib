@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dataTestLib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A demo for dataTestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'dataTestLib/Classes/**/*','dataTestLib/Resource/**/DatatistTracker.xcdatamodeld'
   #s.source_files = 'lib/include/*.h'
-   s.public_header_files = 'lib/include/*.h'
+   #s.public_header_files = 'lib/include/*.h'
   #s.vendored_libraries = 'lib/*.a'
    s.frameworks = 'UIKit', 'MapKit', 'Security', 'CoreLocation', 'UserNotifications', 'CoreData', 'CoreTelephony', 'MobileCoreServices', 'JavaScriptCore', 'CoreGraphics', 'Foundation', 'SystemConfiguration'
   s.ios.library = 'c++', 'stdc++', 'z'
