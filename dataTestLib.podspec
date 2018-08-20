@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dataTestLib'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A demo for dataTestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'dataTestLib/Classes/**/*','dataTestLib/Resource/**/DatatistTracker.xcdatamodeld'
-  #s.source_files = 'lib/include/*.h'
-   #s.public_header_files = 'lib/include/*.h'
-  #s.vendored_libraries = 'lib/*.a'
+  #s.source_files = 'dataTestLib/Classes/**/*','dataTestLib/Resource/**/DatatistTracker.xcdatamodeld'
+   s.source_files = 'lib/include/*.h'
+   s.public_header_files = 'lib/include/*.h'
+   s.vendored_libraries = 'lib/*.a'
    s.frameworks = 'UIKit', 'MapKit', 'Security', 'CoreLocation', 'UserNotifications', 'CoreData', 'CoreTelephony', 'MobileCoreServices', 'JavaScriptCore', 'CoreGraphics', 'Foundation', 'SystemConfiguration'
   s.ios.library = 'c++', 'stdc++', 'z'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
     'dataTestLib' => 'lib/DTResource.bundle'
 }
-   #s.public_header_files = 'dataTestLib/Classes/DatatistCouponInfo.h', 'dataTestLib/Classes/DatatistDispatcher.h', 'dataTestLib/Classes/DatatistNSURLSessionDispatcher.h', 'dataTestLib/Classes/DatatistOrderInfo.h', 'dataTestLib/Classes/DatatistProductInfo.h', 'dataTestLib/Classes/DatatistTracker.h', 'dataTestLib/Classes/DatatistTransaction.h', 'dataTestLib/Classes/DatatistTransactionBuilder.h'
+   s.public_header_files = 'dataTestLib/Classes/DatatistCouponInfo.h', 'dataTestLib/Classes/DatatistDispatcher.h', 'dataTestLib/Classes/DatatistNSURLSessionDispatcher.h', 'dataTestLib/Classes/DatatistOrderInfo.h', 'dataTestLib/Classes/DatatistProductInfo.h', 'dataTestLib/Classes/DatatistTracker.h', 'dataTestLib/Classes/DatatistTransaction.h', 'dataTestLib/Classes/DatatistTransactionBuilder.h'
    #s.resources = "dataTestLib/Resource/**/*"
   s.frameworks = 'UIKit', 'MapKit', 'Security', 'CoreLocation', 'UserNotifications', 'CoreData', 'CoreTelephony', 'MobileCoreServices', 'JavaScriptCore', 'CoreGraphics', 'Foundation', 'SystemConfiguration', 'WebKit'
   # s.dependency 'AFNetworking', '~> 2.3'

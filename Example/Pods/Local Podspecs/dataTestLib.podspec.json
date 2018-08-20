@@ -1,6 +1,6 @@
 {
   "name": "dataTestLib",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A demo for dataTestLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/leichunyu/dataTestLib",
@@ -13,16 +13,23 @@
   },
   "source": {
     "git": "https://github.com/leichunyu/dataTestLib.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "dataTestLib/Classes/**/*",
-    "dataTestLib/Resource/**/DatatistTracker.xcdatamodeld"
+  "source_files": "lib/include/*.h",
+  "public_header_files": [
+    "dataTestLib/Classes/DatatistCouponInfo.h",
+    "dataTestLib/Classes/DatatistDispatcher.h",
+    "dataTestLib/Classes/DatatistNSURLSessionDispatcher.h",
+    "dataTestLib/Classes/DatatistOrderInfo.h",
+    "dataTestLib/Classes/DatatistProductInfo.h",
+    "dataTestLib/Classes/DatatistTracker.h",
+    "dataTestLib/Classes/DatatistTransaction.h",
+    "dataTestLib/Classes/DatatistTransactionBuilder.h"
   ],
-  "public_header_files": "lib/include/*.h",
+  "vendored_libraries": "lib/*.a",
   "frameworks": [
     "UIKit",
     "MapKit",
